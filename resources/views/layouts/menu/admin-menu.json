@@ -1,0 +1,70 @@
+[{
+        "icon": "fas fa-qrcode",
+        "title": "Dashboard",
+        "url": "admin/dashboard"
+    },
+    {
+        "icon": "fas fa-th-list",
+        "title": "Success History",
+        "children": [{
+                "icon": "fas fa-angle-right",
+                "title": "Manage success",
+                "url": "admin/success"
+            },
+            {
+                "icon": "fas fa-angle-right",
+                "title": "Create Success History",
+                "url": "admin/add/success"
+            }
+        ]
+    },
+
+    {
+        "icon": "fas fa-th-list",
+        "title": "Success Attributes",
+        "children": [{
+                "icon": "fas fa-angle-right",
+                "title": "Manage Success attribute",
+                "url": "admin/success-attribute"
+            },
+            {
+                "icon": "fas fa-angle-right",
+                "title": "Create Success-attribute",
+                "url": "admin/add/success-attribute"
+            }
+        ]
+    },
+
+    {
+        "icon": "fas fa-th-list",
+        "title": "Brand",
+        "children": [{
+                "icon": "fas fa-angle-right",
+                "title": "Manage Brand",
+                "url": "admin/brand"
+            },
+            {
+                "icon": "fas fa-angle-right",
+                "title": "Create Brand",
+                "url": "admin/brand/add"
+            }
+        ]
+    },
+
+    {
+        "icon": "fas fa-user",
+        "title": "Manage Profile",
+        "children": [
+            {
+                "icon": "fas fa-angle-right",
+                "title": "Edit Profile",
+                "url": "admin/edit"
+            },
+            {
+                "icon": "fas fa-angle-right",
+                "title": "Change Password",
+                "url": "admin/change-password/form"
+            }
+        ]
+    }
+]

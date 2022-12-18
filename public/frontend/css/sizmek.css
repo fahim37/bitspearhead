@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden !important; 
+}
+.s1-size{
+    height: 70vh;
+}
+/* This is Header  */
+header{
+    height: 50px;
+}
+header img{
+    width: 30%;
+    margin-left: 20px;
+    box-sizing: border-box;
+    
+}
+
+
+    /* section 2 */
+.Adstack{
+    width:100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Adstack h2{
+    background-color: #7BAFD3;
+    color: #fff;
+}
+/* This is Section 3 */
+.section3{
+    width: 100%;
+    height: auto;
+    background-color: #00A1E5;
+    color: #fff;
+    
+}
+.list-4{
+    font-size: 25px;
+}
+
+/* This is Section 4 */
+.section4 h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #00A1E5;
+}
+.section4 .s4i img{
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+
+/* This is Section 7 */
+/*  */
+
+
+
+  /* This is Section 8 */
+  .shape{
+    justify-content: center;
+    align-items: center;
+  }
+  .trusted-brands-container{
+    margin-top: 100px;
+    height: 250px;
+    width: 100vw;
+}
+.trusted-brands-container h1{
+    font-size: 40px;
+    text-align: center;
+}
+.trusted-brands-container span{
+    color: rgb(3, 162, 229);
+}
+.swiper {
+    width: 100%;
+    height: 80%;
+  }
+  .swiper .swiper-slide {
+    text-align: center;
+    width: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img{
+  
+    width: 120px;
+  }
+  @media only screen and (max-width: 600px) {
+    header img{
+        width: 70%;
+        margin-left: 20px;
+        
+    }
+    html{
+        overflow-x: hidden;
+    }
+
+}
